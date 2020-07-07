@@ -2,7 +2,8 @@
 
 body {
 	/*font-family: 'Nanum Myeongjo', serif;*/
-	font-family: 'Asap', sans-serif;
+	/*font-family: 'Asap', sans-serif;*/
+	font-family: 'Didact Gothic', sans-serif;
 	height: 100%;
 	color: black;
 	/*margin-bottom:60px;*/
@@ -11,7 +12,7 @@ body {
 }
 
 body a {
-	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Didact Gothic', sans-serif;
 	color: black;
 }
 
@@ -21,14 +22,17 @@ body a:hover {
 }
 
 .cover {
-  background: #2b2d34 url(https://i.imgur.com/OCUIpI8.jpg) center;
+  background: black url(https://i.imgur.com/sO9Cloe.jpg) center;
+  /**/
+  
   background-size: cover;
   min-height: 50rem;
   /*height: auto;*/
   border-radius: 0;
   width: 100%;
   color: #fff;
-  padding-top: 1rem; }
+  /*padding-top: 1rem;*/ 
+}
 
  .cover .cover-container {
     display: table;
@@ -52,6 +56,12 @@ body a:hover {
 
 					/*nav bar*/
 
+.navbar-brand{
+	background-color:white;
+	padding: 0;
+	margin: 0;
+}
+
 .navbar .navbar-header,
 .navbar-collapse {
     float:none;
@@ -59,6 +69,7 @@ body a:hover {
     vertical-align: top;
     padding-left: 0;
     padding-right: 0;
+    background-color: white;
     /*height: 90px;*/
 }
 
@@ -70,21 +81,53 @@ body a:hover {
 
 .nav-item{
 	font-size: 12px;
-	color: white;
+	color: black;
+	padding: 1px;
 	font-weight: bold;
 	/*color: white;*/
 
 }
 
 nav .navbar-nav li a{
-  color: white !important;
-  margin-right: 10px;
+  color: black !important;
+  margin-right: 14px;
+  /*background-color: white;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 12px;*/
+  /*transition: all .2s ease-in-out;*/
   }
 
   nav .navbar-nav li a:hover{
-  color: #ffc919 !important;
+  /*border-width: 1px;*/
+  /*color: #black !important;*/
   text-decoration: underline;
+ 
   }
+
+  /*#one-link:hover {
+  border-color: red;
+  }
+
+  #two-link:hover {
+  border-color: blue;
+  }
+
+  #three-link:hover {
+  border-color: green;
+  }
+
+  #four-link:hover {
+  border-color: yellow;
+  }
+
+  #five-link:hover {
+  border-color: pink;
+  }*/
+
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }*/
 
 .container {
 	height: 80px;
