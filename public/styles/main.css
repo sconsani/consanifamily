@@ -1,3 +1,183 @@
+					/*body*/
+
 body {
-	color: blue;
+	/*font-family: 'Nanum Myeongjo', serif;*/
+	font-family: 'Asap', sans-serif;
+	height: 100%;
+	color: black;
+	/*margin-bottom:60px;*/
+	/*display: block;*/
+	background-color:red;
+}
+
+body a {
+	font-family: 'Nanum Myeongjo', serif;
+	color: black;
+}
+
+body a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.cover {
+  background: #2b2d34 url(https://i.imgur.com/OCUIpI8.jpg) center;
+  background-size: cover;
+  min-height: 50rem;
+  /*height: auto;*/
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  padding-top: 1rem; }
+
+ .cover .cover-container {
+    display: table;
+    height: 30%;
+    min-height: 44rem;
+    width: 100%;
+    /*position: fixed;*/
+
+}
+
+
+
+  .cover-container {
+  	margin-top: 90px;
+  }
+
+/*#sticky-footer{
+	flex-shrink: 0;
+}*/
+
+
+					/*nav bar*/
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 0;
+    /*height: 90px;*/
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
+
+.nav-item{
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	/*color: white;*/
+
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+  margin-right: 10px;
+  }
+
+  nav .navbar-nav li a:hover{
+  color: #ffc919 !important;
+  text-decoration: underline;
+  }
+
+.container {
+	height: 80px;
+}
+
+
+/*.navbar {
+	height: 80px;
+	margin: 0;
+	/*background-color:white;*/
+/*}*/
+
+.intro-content{
+	background-color: black;
+	height: 400px;
+	color: white;
+}
+
+/*@media (min-width: 768px) {
+  .navbar-nav.navbar-center, .navbar-header-center {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}*/
+
+					/*footer*/
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+  margin-top: 100px;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer-size {
+	background-color: grey;
+	height: 200px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+
+}
+
+.footer-container{
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-links {
+	font-size: 15px;
+	margin: 10px;
+}
+
+.moto-words p{
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+}
+/*.moto-words p:hover {
+	color: grey;
+}*/
+
+#one-link{
+	margin-right: 10px;
+}
+
+.footer-closer h6 {
+	font-size: 12px
+}
+
+
+@media (min-width: 1200px)
+.footer-container { 
+max-width: 1140px; 
+}
+
+@media(min-width: 992px)
+.footer-container {
+	max-width: 960px;
+}
+
+@media (min-width: 768px)
+.footer-container {
+	max-width: 720px;
+}
+
+@media (min-width: 576px)
+.footer-container{
+	max-width: 540px;
 }
