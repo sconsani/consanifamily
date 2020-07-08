@@ -1,0 +1,106 @@
+header {
+  height: 100px;
+}
+.cover {
+  background: url();
+  background-color: white;
+  border-radius: 0;
+  width: 100%;
+  color: white;
+  min-height: 70rem;
+}
+
+.cover-container {
+    display: table;
+    /*height: 100%;*/
+    min-height: 44rem;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.about-intro{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  color: black;
+}
+
+/*outer div*/
+.col {
+width: 100%;
+position: relative;
+text-align: center;
+}
+
+/*inner div*/
+.bg-image{
+  margin: 0;
+  display: inline-block;
+
+}
+
+#sammy {
+background: url(https://i.imgur.com/OoMdBxO.jpg);
+background-size: cover;
+height: 250px;
+width: 250px;
+}
+
+#sammy:hover {
+background: url(https://i.imgur.com/rAq5M5H.jpg);
+background-size: cover;
+}
+
+#anna {
+background: url(https://i.imgur.com/3452GoD.png);
+background-size: cover;
+height: 250px;
+width: 250px;
+}
+
+#anna:hover {
+background: url(https://i.imgur.com/kC2TwWu.jpg);
+background-size: cover;
+}
+
+#jack {
+background: url(https://i.imgur.com/LZHHSYT.jpg);
+background-size: cover;
+height: 250px;
+width: 250px;
+}
+
+#jack:hover {
+background: url(https://i.imgur.com/S6Ca79R.jpg);
+background-size: cover;
+}
+
+#mom {
+background: url(https://i.imgur.com/ybE1xWW.jpg);
+background-size: cover;
+height: 250px;
+width: 250px;
+}
+
+/*#mom:hover {
+background: url(https://i.imgur.com/OoMdBxO.jpg);
+background-size: cover;
+}*/
+
+#dad {
+background: url(https://i.imgur.com/yb8vL9S.jpg);
+background-size: cover;
+height: 250px;
+width: 250px;
+}
+
+/*#dad:hover {
+background: url(https://i.imgur.com/OoMdBxO.jpg);
+background-size: cover;
+}*/
+
+
+
